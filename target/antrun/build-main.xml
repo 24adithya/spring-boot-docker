@@ -1,9 +1,0 @@
-<?xml version="1.0" encoding="UTF-8" ?>
-<project name="maven-antrun-" default="main"  >
-<target name="main">
-  <zip destfile="/home/adithyanarayan/workspaces/SpringDocker/target/app.zip">
-    <zipfileset dir="/home/adithyanarayan/workspaces/SpringDocker/target/docker"/>
-    <zipfileset includes="SpringDocker.jar" dir="/home/adithyanarayan/workspaces/SpringDocker/target"/>
-  </zip>
-</target>
-</project>
